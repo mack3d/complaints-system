@@ -1,0 +1,246 @@
+﻿html {
+  box-sizing: border-box;
+  background: #fff;
+}
+body {
+  position: relative;
+  font-family: Arial;
+  font-size: 12px;
+  min-height: 100%;
+  height: auto !important;
+  width: 100%;
+}
+legend {
+  color: #a6a6a6;
+}
+
+#samurai {
+  position: fixed;
+  right: 5px;
+  bottom: 0px;
+  clear: both;
+  margin: 0px;
+  padding: 0px;
+}
+
+#navi {
+  display: block;
+  min-height: 39px;
+  font-size: 13px;
+  font-weight: bold;
+  border-top: 4px solid #01df01;
+  margin-bottom: 10px;
+}
+#navi ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: auto;
+}
+#navi ul li {
+  display: block;
+  float: left;
+  margin: 0;
+}
+#navi ul li a {
+  display: block;
+  float: left;
+  color: #666;
+  text-decoration: none;
+  padding: 11px 20px 0 20px;
+  height: 23px;
+}
+#navi ul li a:hover,
+#navi ul li a.current {
+  color: #01df01;
+}
+
+#tresc {
+  display: block;
+  width: 100%;
+  display: block;
+  padding: 0px 0px 30px 0px;
+  margin: 0px;
+}
+
+#stopka {
+  display: block;
+  position: absolute;
+  bottom: 2px;
+  padding: 0px;
+  margin: 0px;
+  height: 20px;
+  width: 100%;
+  background-color: #d9d9d9;
+  color: white;
+  text-align: center;
+  z-index: -1;
+}
+
+fieldset.nowezg {
+  width: 400px;
+  height: auto;
+}
+fieldset.nowezgzb {
+  width: 651px;
+  height: auto;
+}
+#tabelka_reklamacje {
+  border: none;
+  background-color: #e6e6e6;
+}
+tr.top td {
+  border: 0px;
+}
+tr.search td {
+  color: #d8d8d8;
+}
+tr.search:nth-child(odd) {
+  background-color: #ffffff;
+}
+tr.search:nth-child(even) {
+  background-color: #e6e6e6;
+}
+input.tabelka {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+#tabelkazbiory {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+#szukajzbiory {
+  margin: 0px;
+  padding: 0px;
+}
+a.zbiorek {
+  display: block;
+  margin: 10px;
+  padding: 0px 5px;
+  background-color: #e6e6e6;
+  text-decoration: none;
+  text-align: ;
+  width: 550px;
+  color: black;
+  font-size: 110%;
+  border: none;
+}
+p.idzbioru {
+  display: inline-block;
+  background-color: transparent;
+  width: 50px;
+}
+p.nazwa {
+  display: inline-block;
+  background-color: transparent;
+  letter-spacing: 2px;
+  width: 280px;
+}
+p.datawys {
+  display: inline-block;
+  background-color: transparent;
+  width: 100px;
+}
+p.odp {
+  display: inline-block;
+  background-color: transparent;
+  width: 100px;
+}
+a.indexserwis {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  background-color: #e6e6e6;
+  text-decoration: none;
+  text-align: center;
+  width: 400px;
+  color: black;
+  font-size: 110%;
+  border: none;
+}
+#kontrahenttable tr td input {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  background-color: transparent;
+}
+a.kontrahencik {
+  display: block;
+  margin: 3px;
+  padding: 5px 5px;
+  background-color: #e6e6e6;
+  text-decoration: none;
+  text-align: left;
+  width: 860px;
+  color: black;
+  font-size: 110%;
+}
+a.kontrahencik:nth-child(odd) {
+  background-color: #d8d8d8;
+}
+a.kontrahencik:nth-child(even) {
+  background-color: #e6e6e6;
+}
+p.knazwa {
+  display: inline-block;
+  background-color: transparent;
+  width: 250px;
+  margin: 0px;
+  padding: 0px;
+}
+p.ktele {
+  display: inline-block;
+  background-color: transparent;
+  width: 100px;
+  margin: 0px;
+  padding: 0px;
+}
+p.kkod {
+  display: inline-block;
+  background-color: transparent;
+  width: 70px;
+  margin: 0px;
+  padding: 0px;
+}
+p.kmiasto {
+  display: inline-block;
+  background-color: transparent;
+  width: 150px;
+  margin: 0px;
+  padding: 0px;
+}
+p.kmail {
+  display: inline-block;
+  background-color: transparent;
+  max-width: 250px;
+  margin: 0px;
+  padding: 0px;
+}
+div#menu_reklamacje {
+  display: inline-block;
+  min-height: 39px;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.button_reklamacje {
+  display: inline-block;
+  background-color: #e6e6e6;
+  text-decoration: none;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  color: black;
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.button_reklamacje:hover {
+  display: inline-block;
+  background-color: pink;
+  text-decoration: none;
+  background-color: #d0d0d0;
+}

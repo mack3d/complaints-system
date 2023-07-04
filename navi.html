@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<?php
+	mb_internal_encoding('UTF-8');
+	mb_http_output('UTF-8');
+
+	$title1 = 'SAMURAI Serwis / ';
+	$title = $title1.$title;
+	echo '<title>'.$title.'</title>';
+	echo '<link rel="icon" type="image/ico" href="img/favicon.ico">';
+	echo @$title2;
+?>
+<script type="text/javascript">
+	function ukryj(dane){document.getElementById("wydruk").style.display="none";} //znika przycisk w nowym zgloszeniu
+	function duzeliterki(elem){elem.value = elem.value.toUpperCase();}
+	function spacje(dane){dane.value = dane.value.replace(/\s/gi, "");}
+</script>
+
+<!--autouzupelnianie w nowym zgloszeniu-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" />
+<script>
+	var src = 'complete.php';
+	$(document).ready(function(){
+		$("#product_name").autocomplete({
+			source: src,
+			dataType: "json",
+			minLength:3
+		});
+	});
+</script>
+
+<!--checkboxy w zestawieniu reklamacji-->
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#selecctall').click(function(event) {
+		if(this.checked) {
+			$('.checkbox1').each(function() {
+				this.checked = true;
+			});
+		}else{
+			$('.checkbox1').each(function() {
+				this.checked = false;
+			});
+		}
+	});
+});
+function forma(){
+	console.log(this);
+	var r = confirm('Czy napewno?');
+	if (r == true){
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+</script>
+</head>
+
+<body>
+<nav id="navi">
+<ul>
+<li><a href="index.php">Strona główna</a></li>
+<li><a href="reklamacje.php">Zestawienie reklamacji</a></li>
+<li><a href="nowezgloszenie.php">Nowe zgłoszenie</a></li>
+<li><a href="doserwisu.php">Nowa wysyłka</a></li>
+<li><a href="zbiory.php">Zestawienia wysyłek</a></li>
+<li><a href="kontrahenci.php">Kontrahenci</a></li>
+<li><a href="reklamacjeSAT.php">Wysłane Sat-Serwis</a></li>
+</ul>
+</nav>
+<img id="samurai" src="img/samurai.png">
+<div id="tresc">
