@@ -6,9 +6,9 @@ The free TCPDF class is used to print pdf documents.
 
 It needs the company data.php file with your organization details in order to generate PDF documents correctly
 
-$company_name = "YOUR COMPANY NAME";
-$company_street = "STREET";
-$company_phone = "PHONE";
-$company_city = "CITY";
-$company_zip_code = "ZIP CODE";
-$company_email = "name@company.com"
+$company_name = "YOUR COMPANY NAME";</br>
+$company_street = "STREET";</br>
+$company_phone = "PHONE";</br>
+$company_city = "CITY";</br>
+$company_zip_code = "ZIP CODE";</br>
+$company_email = "name@company.com"</br>
