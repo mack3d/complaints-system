@@ -11,7 +11,7 @@ if ($test == 1) {
 	include('navi.html');
 	@$czyj = znaki($_GET['czyj']);
 	@$telefon = znaki($_GET['telefon']);
-	@$towar = znaki($_GET['product_name']);
+	@$towar = znaki($_GET['towar']);
 	@$serial = $_GET['serial'];
 	@$usterka = znaki($_GET['usterka']);
 	@$uwagi1 = znaki($_GET['uwagi1']);

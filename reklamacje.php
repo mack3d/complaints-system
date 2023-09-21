@@ -114,16 +114,15 @@ $reklamacje = $pdo->query($query);
 
 echo '<center><form>' . $dodajtowar . $usunbutton . '<input onclick="return forma();" class="button_reklamacje" type="submit" name="button" value="Zmiennawrocilo" /><table id="tabelka_reklamacje">';
 
-echo '<thead><tr class="top"><th></th><th>LP</th><th>Towar</th><th>S/N / kod</th><th>Czyj</th><th>Telefon</th><th>Usterka</th><th>Uwagi 1</th><th>Status</th><th>Data PZ</th><th>Serwis</th><th>Data wys.</th></tr></thead>';
+echo '<thead><tr class="top"><th></th><th>LP</th><th>Towar</th><th>S/N / kod</th><th>Czyj</th><th>Telefon</th><th>Usterka</th><th>Status</th><th>Data PZ</th><th>Serwis</th><th>Data wys.</th></tr></thead>';
 
 echo '<tbody><tr class="search"><td><input type="checkbox" id="selecctall"/></td>
 <td><input name="lp" size=3 value="' . $lp . '"></td>
-<td><input name="product_name" size=11 value="' . $towar . '"></td>
+<td><input name="product_name" size=23 value="' . $towar . '"></td>
 <td><input name="serial" size=11 value="' . $serial . '"></td>
 <td><input name="czyj" size=11 value="' . $czyj . '"></td>
 <td><input name="telefon" size=11 value="' . $telefon . '"></td>
 <td><input name="usterka" size=11 value="' . $usterka . '"></td>
-<td><input name="uwagi1" size=11 value="' . $uwagi1 . '"></td>
 <td><select name="status" size=1><option value="0" selcted>Wszystkie</option><option value="1">Przyjete</option><option value="2">Wyslano</option><option value="3">Wrocilo</option></select></td>
 <td><input name="data1" size=11 value="' . $data1 . '"></td>
 <td><input name="nazwa" size=11 value="' . $nazwa . '"></td>

@@ -24,7 +24,7 @@ echo '<tr><td>Towar:</td><td><input id="product_name" type=text size=20 name="pr
 echo '<tr><td>Serial:</td><td><input type="text" size=20 name="serial" value="" onblur="duzeliterki(this)"><br></td></tr>';
 echo '<tr><td>Usterka</td><td><textarea cols=25 rows=4 name="usterka" value="" required></textarea></td></tr>';
 echo '<tr><td>Uwagi</td><td><textarea cols=25 rows=1 value="" name="uwagi1"></textarea></td></tr>';
-echo '<tr><td><input hidden name="token" value="1"><input type="submit" value="Wyslij"></td></tr>';
+echo '<tr><td><input hidden name="token" value="1"><input type="submit" value="Dodaj"></td></tr>';
 echo '</form></table>';
 echo '</fieldset><br><br>';
 
